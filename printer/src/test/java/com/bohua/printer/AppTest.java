@@ -1,4 +1,4 @@
-package com.printer;
+package com.bohua.printer;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

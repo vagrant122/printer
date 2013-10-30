@@ -23,7 +23,7 @@
 				class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter" />
 		</mvc:message-converters>
 	</mvc:annotation-driven>
-	<context:component-scan base-package="com.printer" />
+	<context:component-scan base-package="com.bohua.printer" />
 	<context:annotation-config />
 	<tx:annotation-driven />
 	<mvc:resources mapping="/resources/**" location="/resources/" cache-period="2678400"/>

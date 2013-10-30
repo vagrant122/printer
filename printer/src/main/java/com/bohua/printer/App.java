@@ -1,4 +1,4 @@
-package com.printer;
+package com.bohua.printer;
 
 /**
  * Hello world!
