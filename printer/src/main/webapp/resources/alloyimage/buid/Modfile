@@ -1,0 +1,12 @@
+// https://github.com/modulejs/modjs
+module.exports = {
+    tasks:{
+        cat:{
+            source:['../src/alloyimage.base.js',"../src/module/*.js", "../src/module/alteration/*.js", "../src/module/filter/*.js"]
+            ,dest: '../combined/alloyimage.js'
+        }
+    },
+    targets:{
+        dist: "cat"
+    }
+};
